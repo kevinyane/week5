@@ -1,10 +1,51 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
-<!---->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boostrap Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+      <nav class="nav d-flex flex-column bg-light">
+      <span class="navbar navbar-light bg-light"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/e5b2d796938ad085c18c703e318f87d25934dc39/week5/logo-ANSWER.svg" alt=""></span>
+      
+      <a class="nav-link link-success d-flex align-items-center mb-6" href="#">
+        <span class="material-icons me-3">assessment</span>
+        Dashboard
+      </a>
+      <a class="nav-link link-success d-flex align-items-center mb-6" href="#">
+        <span class="material-icons me-3">question_answer</span>
+        Question</a>
+      <a class="nav-link link-success active d-flex align-items-center mb-6" aria-current="page" href="#"> 
+        <span class="material-icons me-3">assignment</span>
+            Assignment
+      </a>
+      <a class="nav-link link-success d-flex align-items-center mb-6" href="#">
+        <span class="material-icons me-3">video_library</span>   
+        Course</a>
+      <a class="nav-link link-success d-flex align-items-center mb-6" href="#">
+        <span class="material-icons me-3">supervisor_account</span>  
+            Admin
+      </a>
+      <a class="nav-link link-success d-flex align-items-center mb-6" href="#">
+        <span class="material-icons me-3">settings</span> 
+        Settings
+      </a>
+      <div class="member-mt d-flex">
+        <div class="rounded-circle image-s me-3"></div>
+        <div class="navlist ">
+          <p class="fs-6 fw-bold lh-base text-mb">Andy Chen<br>
+            <p class="fs-7">andy@mail.com</p></p>
+        </div>  
+    </nav>
+
+    <!---->
 <main class="main">
   <div class="container">
     <div class="title d-flex align-self-center mb-7"> 
@@ -176,3 +217,14 @@ current: index
 </main>
 
 
+
+
+   <!-- <footer class="footer">
+      footer
+    </footer> -->
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
